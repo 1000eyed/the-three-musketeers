@@ -16,6 +16,8 @@ The three musketeers is a mechanical keyboard powered by RP2040 Zero development
 - There are multiple space row options, including 7U bar seesaw mount.
 - No stabilizers!
 
+![](gallery/kle.png)
+
 ## How to build one
 
 > [!IMPORTANT]
@@ -29,6 +31,7 @@ The three musketeers is a mechanical keyboard powered by RP2040 Zero development
 | 1     | Case                 | See below                                 |
 | 1     | RP2040 Zero          |                                           |
 | 36-56 | Switches             | Gateron low profile KS-33b or v3          |
+| 36-56 | Diodes               | SOD-123                                   |
 | 36-56 | Keycaps              | MX-compatible                             |
 | 4     | Rubber bump-ons      | 10mm                                      |
 | 16    | Magnets              | Cylinder 1x5mm                            |
@@ -84,8 +87,9 @@ This version does not use the PCB at all, and thus is not directly connected to 
 | 1     | Plate                | I printed out in PETG                     |
 | 1     | MCU insert           | I printed out in PETG. Avoid brittle materials.                    |
 | 1     | RP2040 Zero          |                                           |
-| 36-56 | Switches             | Kailh Element                             |
-| 36-56 | Keycaps              | MX-compatible                             |
+| 36    | Switches             | Kailh Element                             |
+| 36    | Diodes               |                                           |
+| 36    | Keycaps              | MX-compatible                             |
 | 4     | Rubber bump-ons      | 10mm                                      |
 | 6     | M3 hex socket screws | 5 or 6 mm will do                               |
 | 1     | Optional Speaker     | KLJ-1102 (https://keeb.supply/products/piezo-buzzer)  |
