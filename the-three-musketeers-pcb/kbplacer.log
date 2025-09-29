@@ -1,0 +1,748 @@
+[kbplacer_plugin_action.py:65]: Plugin version: 0.12
+[kbplacer_plugin_action.py:66]: Python version: '3.11.5 (main, Nov  3 2024, 06:58:22) [MSC v.1939 64 bit (AMD64)]'
+[kbplacer_plugin_action.py:67]: KiCad version: 8.0.7 with 4.2.2 msw (phoenix) wxWidgets 3.2.6
+[kbplacer_dialog.py:585]: Language: en
+[kbplacer_plugin_action.py:75]: GUI state: {"layout_path": "C:\\Users\\1000e\\OneDrive\\Documents\\Keyboard projects\\numkin\\numkin-pcb\\numkin.json", "key_distance": [19.05, 19.05], "key_info": {"annotation_format": "MX{}", "position_option": "Default", "position": {"x": 0.0, "y": 0.0, "orientation": 0.0, "side": "Front"}, "template_path": ""}, "enable_diode_placement": true, "route_switches_with_diodes": false, "optimize_diodes_orientation": true, "diode_info": {"annotation_format": "D{}", "position_option": "Default", "position": {"x": 5.08, "y": 3.03, "orientation": 90.0, "side": "Back"}, "template_path": ""}, "additional_elements": [{"annotation_format": "ST{}", "position_option": "Custom", "position": {"x": 0.0, "y": 0.0, "orientation": 0.0, "side": "Front"}, "template_path": ""}], "route_rows_and_columns": false, "template_path": "", "generate_outline": false, "outline_delta": 0.0}
+[key_placer.py:361]: Set key 1U distance: 19050000/19050000
+[key_placer.py:123]: Switches by nets: defaultdict(<class 'list'>, {frozenset({'Net-(MX13-Pad1)', 'Net-(D60-K)'}): ['MX83', 'MX79', 'MX73', 'MX67'], frozenset({'Net-(D60-K)', 'Net-(MX12-Pad1)'}): ['MX82', 'MX78', 'MX72', 'MX66'], frozenset({'Net-(MX23-Pad1)', 'Net-(D60-K)'}): ['MX81', 'MX75', 'MX69', 'MX63'], frozenset({'Net-(MX22-Pad1)', 'Net-(D60-K)'}): ['MX80', 'MX74', 'MX68', 'MX62'], frozenset({'Net-(MX10-Pad1)', 'Net-(D60-K)'}): ['MX77', 'MX71', 'MX65'], frozenset({'Net-(D60-K)', 'Net-(MX25-Pad1)'}): ['MX76', 'MX70', 'MX64'], frozenset({'Net-(MX18-Pad1)', 'Net-(D60-K)'}): ['MX61'], frozenset({'Net-(MX1-Pad1)', 'Net-(D60-K)'}): ['MX60'], frozenset({'Net-(MX14-Pad1)', 'Net-(D33-K)'}): ['MX59', 'MX46'], frozenset({'Net-(MX13-Pad1)', 'Net-(D33-K)'}): ['MX58', 'MX45'], frozenset({'Net-(D33-K)', 'Net-(MX12-Pad1)'}): ['MX57', 'MX44'], frozenset({'Net-(MX11-Pad1)', 'Net-(D33-K)'}): ['MX56', 'MX43'], frozenset({'Net-(MX10-Pad1)', 'Net-(D33-K)'}): ['MX55', 'MX42'], frozenset({'Net-(D33-K)', 'Net-(MX25-Pad1)'}): ['MX54', 'MX41'], frozenset({'Net-(MX24-Pad1)', 'Net-(D33-K)'}): ['MX53', 'MX40'], frozenset({'Net-(MX23-Pad1)', 'Net-(D33-K)'}): ['MX52', 'MX39'], frozenset({'Net-(MX22-Pad1)', 'Net-(D33-K)'}): ['MX51', 'MX38'], frozenset({'Net-(MX21-Pad1)', 'Net-(D33-K)'}): ['MX50', 'MX37'], frozenset({'Net-(MX20-Pad1)', 'Net-(D33-K)'}): ['MX49', 'MX36'], frozenset({'Net-(MX16-Pad1)', 'Net-(D33-K)'}): ['MX48'], frozenset({'Net-(D33-K)', 'Net-(MX15-Pad1)'}): ['MX47'], frozenset({'Net-(D33-K)', 'Net-(MX19-Pad1)'}): ['MX35'], frozenset({'Net-(MX18-Pad1)', 'Net-(D33-K)'}): ['MX34'], frozenset({'Net-(MX1-Pad1)', 'Net-(D33-K)'}): ['MX33'], frozenset({'Net-(D17-K)', 'Net-(MX16-Pad1)'}): ['MX32'], frozenset({'Net-(D17-K)', 'Net-(MX15-Pad1)'}): ['MX31'], frozenset({'Net-(D17-K)', 'Net-(MX14-Pad1)'}): ['MX30'], frozenset({'Net-(MX13-Pad1)', 'Net-(D17-K)'}): ['MX29'], frozenset({'Net-(D17-K)', 'Net-(MX12-Pad1)'}): ['MX28'], frozenset({'Net-(MX11-Pad1)', 'Net-(D17-K)'}): ['MX27'], frozenset({'Net-(MX10-Pad1)', 'Net-(D17-K)'}): ['MX26'], frozenset({'Net-(D17-K)', 'Net-(MX25-Pad1)'}): ['MX25'], frozenset({'Net-(MX24-Pad1)', 'Net-(D17-K)'}): ['MX24'], frozenset({'Net-(MX23-Pad1)', 'Net-(D17-K)'}): ['MX23'], frozenset({'Net-(MX22-Pad1)', 'Net-(D17-K)'}): ['MX22'], frozenset({'Net-(MX21-Pad1)', 'Net-(D17-K)'}): ['MX21'], frozenset({'Net-(MX20-Pad1)', 'Net-(D17-K)'}): ['MX20'], frozenset({'Net-(D17-K)', 'Net-(MX19-Pad1)'}): ['MX19'], frozenset({'Net-(MX18-Pad1)', 'Net-(D17-K)'}): ['MX18'], frozenset({'Net-(MX1-Pad1)', 'Net-(D17-K)'}): ['MX17'], frozenset({'Net-(D1-K)', 'Net-(MX16-Pad1)'}): ['MX16'], frozenset({'Net-(D1-K)', 'Net-(MX15-Pad1)'}): ['MX15'], frozenset({'Net-(D1-K)', 'Net-(MX14-Pad1)'}): ['MX14'], frozenset({'Net-(D1-K)', 'Net-(MX13-Pad1)'}): ['MX13'], frozenset({'Net-(D1-K)', 'Net-(MX12-Pad1)'}): ['MX12'], frozenset({'Net-(D1-K)', 'Net-(MX11-Pad1)'}): ['MX11'], frozenset({'Net-(D1-K)', 'Net-(MX10-Pad1)'}): ['MX10'], frozenset({'Net-(D1-K)', 'Net-(MX25-Pad1)'}): ['MX9'], frozenset({'Net-(D1-K)', 'Net-(MX24-Pad1)'}): ['MX8'], frozenset({'Net-(D1-K)', 'Net-(MX23-Pad1)'}): ['MX7'], frozenset({'Net-(MX22-Pad1)', 'Net-(D1-K)'}): ['MX6'], frozenset({'Net-(MX21-Pad1)', 'Net-(D1-K)'}): ['MX5'], frozenset({'Net-(D1-K)', 'Net-(MX20-Pad1)'}): ['MX4'], frozenset({'Net-(D1-K)', 'Net-(MX19-Pad1)'}): ['MX3'], frozenset({'Net-(MX18-Pad1)', 'Net-(D1-K)'}): ['MX2'], frozenset({'Net-(D1-K)', 'Net-(MX1-Pad1)'}): ['MX1']})
+[key_placer.py:127]: Diodes by switch: {'MX83': ['D67'], 'MX79': ['D67'], 'MX73': ['D67'], 'MX67': ['D67'], 'MX82': ['D66'], 'MX78': ['D66'], 'MX72': ['D66'], 'MX66': ['D66'], 'MX77': ['D65'], 'MX71': ['D65'], 'MX65': ['D65'], 'MX76': ['D64'], 'MX70': ['D64'], 'MX64': ['D64'], 'MX81': ['D63'], 'MX75': ['D63'], 'MX69': ['D63'], 'MX63': ['D63'], 'MX80': ['D62'], 'MX74': ['D62'], 'MX68': ['D62'], 'MX62': ['D62'], 'MX61': ['D61'], 'MX60': ['D60'], 'MX48': ['D48'], 'MX47': ['D47'], 'MX59': ['D46'], 'MX46': ['D46'], 'MX58': ['D45'], 'MX45': ['D45'], 'MX57': ['D44'], 'MX44': ['D44'], 'MX56': ['D43'], 'MX43': ['D43'], 'MX55': ['D42'], 'MX42': ['D42'], 'MX54': ['D41'], 'MX41': ['D41'], 'MX53': ['D40'], 'MX40': ['D40'], 'MX52': ['D39'], 'MX39': ['D39'], 'MX51': ['D38'], 'MX38': ['D38'], 'MX50': ['D37'], 'MX37': ['D37'], 'MX49': ['D36'], 'MX36': ['D36'], 'MX35': ['D35'], 'MX34': ['D34'], 'MX33': ['D33'], 'MX32': ['D32'], 'MX31': ['D31'], 'MX30': ['D30'], 'MX29': ['D29'], 'MX28': ['D28'], 'MX27': ['D27'], 'MX26': ['D26'], 'MX25': ['D25'], 'MX24': ['D24'], 'MX23': ['D23'], 'MX22': ['D22'], 'MX21': ['D21'], 'MX20': ['D20'], 'MX19': ['D19'], 'MX18': ['D18'], 'MX17': ['D17'], 'MX16': ['D16'], 'MX15': ['D15'], 'MX14': ['D14'], 'MX13': ['D13'], 'MX12': ['D12'], 'MX11': ['D11'], 'MX10': ['D10'], 'MX9': ['D9'], 'MX8': ['D8'], 'MX7': ['D7'], 'MX6': ['D6'], 'MX5': ['D5'], 'MX4': ['D4'], 'MX3': ['D3'], 'MX2': ['D2'], 'MX1': ['D1']}
+[kle_serial.py:897]: User layout: [['7\nHome', '8\n↑', '9\nPgUp', {'x': 0.25}, 'Tab', 'Q', 'W', 'E', 'R', 'T', 'Y', 'U', 'I', 'O', 'P', 'Back Space', {'x': 0.25}, 'F1'], ['4\n←', '5', '6\n→', {'x': 0.25}, 'Esc', 'A', 'S', 'D', 'F', 'G', 'H', 'J', 'K', 'L', ';', "'", {'x': 0.25}, 'F2'], ['1\nEnd', '2\n↓', '3\nPgDn', {'x': 0.25}, 'Shift', 'Z', 'X', 'C', 'V', 'B', 'N', 'M', ',', '.', '/', 'Return', {'x': 0.25}, 'F3'], [{'x': 3.25, 'w': 1.5}, 'Shift', 'Z', 'X', 'C', 'V', 'B', 'N', 'M', ',', '.', {'w': 1.5}, '/'], ['.\nDel', {'w': 2}, '0\nIns'], [{'y': -0.75, 'x': 4.75, 'w': 1.75}, 'Gui', 'Alt', {'a': 7, 'w': 1.75}, '', {'w': 1.75}, '', {'a': 4}, 'Alt', {'w': 1.75}, 'Gui'], [{'x': 4.75, 'w': 1.5}, 'Gui', {'w': 1.25}, 'Alt', {'a': 7, 'w': 1.75}, '', {'w': 1.75}, '', {'a': 4, 'w': 1.25}, 'Alt', {'w': 1.5}, 'Gui'], [{'x': 4.75, 'w': 1.25}, 'Gui', {'w': 1.5}, 'Alt', {'a': 7, 'w': 1.75}, '', {'w': 1.75}, '', {'a': 4, 'w': 1.5}, 'Alt', {'w': 1.25}, 'Gui'], [{'x': 4.75}, 'Gui', 'Alt', {'x': 5}, 'Alt', 'Gui']]
+[key_placer.py:661]: Layout offset: (28575000, 28575000)
+[board_modifier.py:85]: Setting MX1 footprint position: (38100000, 38100000)
+[board_modifier.py:85]: Setting MX2 footprint position: (57150000, 38100000)
+[board_modifier.py:85]: Setting MX3 footprint position: (76200000, 38100000)
+[board_modifier.py:85]: Setting MX4 footprint position: (100012500, 38100000)
+[board_modifier.py:85]: Setting MX5 footprint position: (119062500, 38100000)
+[board_modifier.py:85]: Setting MX6 footprint position: (138112500, 38100000)
+[board_modifier.py:85]: Setting MX7 footprint position: (157162500, 38100000)
+[board_modifier.py:85]: Setting MX8 footprint position: (176212500, 38100000)
+[board_modifier.py:85]: Setting MX9 footprint position: (195262500, 38100000)
+[board_modifier.py:85]: Setting MX10 footprint position: (214312500, 38100000)
+[board_modifier.py:85]: Setting MX11 footprint position: (233362500, 38100000)
+[board_modifier.py:85]: Setting MX12 footprint position: (252412500, 38100000)
+[board_modifier.py:85]: Setting MX13 footprint position: (271462500, 38100000)
+[board_modifier.py:85]: Setting MX14 footprint position: (290512500, 38100000)
+[board_modifier.py:85]: Setting MX15 footprint position: (309562500, 38100000)
+[board_modifier.py:85]: Setting MX16 footprint position: (333375000, 38100000)
+[board_modifier.py:85]: Setting MX17 footprint position: (38100000, 57150000)
+[board_modifier.py:85]: Setting MX18 footprint position: (57150000, 57150000)
+[board_modifier.py:85]: Setting MX19 footprint position: (76200000, 57150000)
+[board_modifier.py:85]: Setting MX20 footprint position: (100012500, 57150000)
+[board_modifier.py:85]: Setting MX21 footprint position: (119062500, 57150000)
+[board_modifier.py:85]: Setting MX22 footprint position: (138112500, 57150000)
+[board_modifier.py:85]: Setting MX23 footprint position: (157162500, 57150000)
+[board_modifier.py:85]: Setting MX24 footprint position: (176212500, 57150000)
+[board_modifier.py:85]: Setting MX25 footprint position: (195262500, 57150000)
+[board_modifier.py:85]: Setting MX26 footprint position: (214312500, 57150000)
+[board_modifier.py:85]: Setting MX27 footprint position: (233362500, 57150000)
+[board_modifier.py:85]: Setting MX28 footprint position: (252412500, 57150000)
+[board_modifier.py:85]: Setting MX29 footprint position: (271462500, 57150000)
+[board_modifier.py:85]: Setting MX30 footprint position: (290512500, 57150000)
+[board_modifier.py:85]: Setting MX31 footprint position: (309562500, 57150000)
+[board_modifier.py:85]: Setting MX32 footprint position: (333375000, 57150000)
+[board_modifier.py:85]: Setting MX33 footprint position: (38100000, 76200000)
+[board_modifier.py:85]: Setting MX34 footprint position: (57150000, 76200000)
+[board_modifier.py:85]: Setting MX35 footprint position: (76200000, 76200000)
+[board_modifier.py:85]: Setting MX36 footprint position: (100012500, 76200000)
+[board_modifier.py:85]: Setting MX37 footprint position: (119062500, 76200000)
+[board_modifier.py:85]: Setting MX38 footprint position: (138112500, 76200000)
+[board_modifier.py:85]: Setting MX39 footprint position: (157162500, 76200000)
+[board_modifier.py:85]: Setting MX40 footprint position: (176212500, 76200000)
+[board_modifier.py:85]: Setting MX41 footprint position: (195262500, 76200000)
+[board_modifier.py:85]: Setting MX42 footprint position: (214312500, 76200000)
+[board_modifier.py:85]: Setting MX43 footprint position: (233362500, 76200000)
+[board_modifier.py:85]: Setting MX44 footprint position: (252412500, 76200000)
+[board_modifier.py:85]: Setting MX45 footprint position: (271462500, 76200000)
+[board_modifier.py:85]: Setting MX46 footprint position: (290512500, 76200000)
+[board_modifier.py:85]: Setting MX47 footprint position: (309562500, 76200000)
+[board_modifier.py:85]: Setting MX48 footprint position: (333375000, 76200000)
+[board_modifier.py:85]: Setting MX49 footprint position: (104775000, 95250000)
+[board_modifier.py:85]: Setting MX50 footprint position: (128587500, 95250000)
+[board_modifier.py:85]: Setting MX51 footprint position: (147637500, 95250000)
+[board_modifier.py:85]: Setting MX52 footprint position: (166687500, 95250000)
+[board_modifier.py:85]: Setting MX53 footprint position: (185737500, 95250000)
+[board_modifier.py:85]: Setting MX54 footprint position: (204787500, 95250000)
+[board_modifier.py:85]: Setting MX55 footprint position: (223837500, 95250000)
+[board_modifier.py:85]: Setting MX56 footprint position: (242887500, 95250000)
+[board_modifier.py:85]: Setting MX57 footprint position: (261937500, 95250000)
+[board_modifier.py:85]: Setting MX58 footprint position: (280987500, 95250000)
+[board_modifier.py:85]: Setting MX59 footprint position: (304800000, 95250000)
+[board_modifier.py:85]: Setting MX60 footprint position: (38100000, 114300000)
+[board_modifier.py:85]: Setting MX61 footprint position: (66675000, 114300000)
+[board_modifier.py:85]: Setting MX62 footprint position: (135731250, 119062500)
+[board_modifier.py:85]: Setting MX63 footprint position: (161925000, 119062500)
+[board_modifier.py:85]: Setting MX64 footprint position: (188118750, 119062500)
+[board_modifier.py:85]: Setting MX65 footprint position: (221456250, 119062500)
+[board_modifier.py:85]: Setting MX66 footprint position: (247650000, 119062500)
+[board_modifier.py:85]: Setting MX67 footprint position: (273843750, 119062500)
+[board_modifier.py:85]: Setting MX68 footprint position: (133350000, 138112500)
+[board_modifier.py:85]: Setting MX69 footprint position: (159543750, 138112500)
+[board_modifier.py:85]: Setting MX70 footprint position: (188118750, 138112500)
+[board_modifier.py:85]: Setting MX71 footprint position: (221456250, 138112500)
+[board_modifier.py:85]: Setting MX72 footprint position: (250031250, 138112500)
+[board_modifier.py:85]: Setting MX73 footprint position: (276225000, 138112500)
+[board_modifier.py:85]: Setting MX74 footprint position: (130968750, 157162500)
+[board_modifier.py:85]: Setting MX75 footprint position: (157162500, 157162500)
+[board_modifier.py:85]: Setting MX76 footprint position: (188118750, 157162500)
+[board_modifier.py:85]: Setting MX77 footprint position: (221456250, 157162500)
+[board_modifier.py:85]: Setting MX78 footprint position: (252412500, 157162500)
+[board_modifier.py:85]: Setting MX79 footprint position: (278606250, 157162500)
+[board_modifier.py:85]: Setting MX80 footprint position: (128587500, 176212500)
+[board_modifier.py:85]: Setting MX81 footprint position: (147637500, 176212500)
+[board_modifier.py:85]: Setting MX82 footprint position: (261937500, 176212500)
+[board_modifier.py:85]: Setting MX83 footprint position: (280987500, 176212500)
+[key_placer.py:996]: Diode info: [ElementInfo(annotation_format='D{}', position_option=<PositionOption.DEFAULT: 'Default'>, position=ElementPosition(x=5.08, y=3.03, orientation=90.0, side=<Side.BACK: 'Back'>), template_path='')]
+[board_modifier.py:98]: Getting MX1 footprint position: (38100000, 38100000)
+[board_modifier.py:85]: Setting D1 footprint position: (43180000, 41130000)
+[board_modifier.py:98]: Getting MX2 footprint position: (57150000, 38100000)
+[board_modifier.py:85]: Setting D2 footprint position: (62230000, 41130000)
+[board_modifier.py:98]: Getting MX3 footprint position: (76200000, 38100000)
+[board_modifier.py:85]: Setting D3 footprint position: (81280000, 41130000)
+[board_modifier.py:98]: Getting MX4 footprint position: (100012500, 38100000)
+[board_modifier.py:85]: Setting D4 footprint position: (105092500, 41130000)
+[board_modifier.py:98]: Getting MX5 footprint position: (119062500, 38100000)
+[board_modifier.py:85]: Setting D5 footprint position: (124142500, 41130000)
+[board_modifier.py:98]: Getting MX6 footprint position: (138112500, 38100000)
+[board_modifier.py:85]: Setting D6 footprint position: (143192500, 41130000)
+[board_modifier.py:98]: Getting MX7 footprint position: (157162500, 38100000)
+[board_modifier.py:85]: Setting D7 footprint position: (162242500, 41130000)
+[board_modifier.py:98]: Getting MX8 footprint position: (176212500, 38100000)
+[board_modifier.py:85]: Setting D8 footprint position: (181292500, 41130000)
+[board_modifier.py:98]: Getting MX9 footprint position: (195262500, 38100000)
+[board_modifier.py:85]: Setting D9 footprint position: (200342500, 41130000)
+[board_modifier.py:98]: Getting MX10 footprint position: (214312500, 38100000)
+[board_modifier.py:85]: Setting D10 footprint position: (219392500, 41130000)
+[board_modifier.py:98]: Getting MX11 footprint position: (233362500, 38100000)
+[board_modifier.py:85]: Setting D11 footprint position: (238442500, 41130000)
+[board_modifier.py:98]: Getting MX12 footprint position: (252412500, 38100000)
+[board_modifier.py:85]: Setting D12 footprint position: (257492500, 41130000)
+[board_modifier.py:98]: Getting MX13 footprint position: (271462500, 38100000)
+[board_modifier.py:85]: Setting D13 footprint position: (276542500, 41130000)
+[board_modifier.py:98]: Getting MX14 footprint position: (290512500, 38100000)
+[board_modifier.py:85]: Setting D14 footprint position: (295592500, 41130000)
+[board_modifier.py:98]: Getting MX15 footprint position: (309562500, 38100000)
+[board_modifier.py:85]: Setting D15 footprint position: (314642500, 41130000)
+[board_modifier.py:98]: Getting MX16 footprint position: (333375000, 38100000)
+[board_modifier.py:85]: Setting D16 footprint position: (338455000, 41130000)
+[board_modifier.py:98]: Getting MX17 footprint position: (38100000, 57150000)
+[board_modifier.py:85]: Setting D17 footprint position: (43180000, 60180000)
+[board_modifier.py:98]: Getting MX18 footprint position: (57150000, 57150000)
+[board_modifier.py:85]: Setting D18 footprint position: (62230000, 60180000)
+[board_modifier.py:98]: Getting MX19 footprint position: (76200000, 57150000)
+[board_modifier.py:85]: Setting D19 footprint position: (81280000, 60180000)
+[board_modifier.py:98]: Getting MX20 footprint position: (100012500, 57150000)
+[board_modifier.py:85]: Setting D20 footprint position: (105092500, 60180000)
+[board_modifier.py:98]: Getting MX21 footprint position: (119062500, 57150000)
+[board_modifier.py:85]: Setting D21 footprint position: (124142500, 60180000)
+[board_modifier.py:98]: Getting MX22 footprint position: (138112500, 57150000)
+[board_modifier.py:85]: Setting D22 footprint position: (143192500, 60180000)
+[board_modifier.py:98]: Getting MX23 footprint position: (157162500, 57150000)
+[board_modifier.py:85]: Setting D23 footprint position: (162242500, 60180000)
+[board_modifier.py:98]: Getting MX24 footprint position: (176212500, 57150000)
+[board_modifier.py:85]: Setting D24 footprint position: (181292500, 60180000)
+[board_modifier.py:98]: Getting MX25 footprint position: (195262500, 57150000)
+[board_modifier.py:85]: Setting D25 footprint position: (200342500, 60180000)
+[board_modifier.py:98]: Getting MX26 footprint position: (214312500, 57150000)
+[board_modifier.py:85]: Setting D26 footprint position: (219392500, 60180000)
+[board_modifier.py:98]: Getting MX27 footprint position: (233362500, 57150000)
+[board_modifier.py:85]: Setting D27 footprint position: (238442500, 60180000)
+[board_modifier.py:98]: Getting MX28 footprint position: (252412500, 57150000)
+[board_modifier.py:85]: Setting D28 footprint position: (257492500, 60180000)
+[board_modifier.py:98]: Getting MX29 footprint position: (271462500, 57150000)
+[board_modifier.py:85]: Setting D29 footprint position: (276542500, 60180000)
+[board_modifier.py:98]: Getting MX30 footprint position: (290512500, 57150000)
+[board_modifier.py:85]: Setting D30 footprint position: (295592500, 60180000)
+[board_modifier.py:98]: Getting MX31 footprint position: (309562500, 57150000)
+[board_modifier.py:85]: Setting D31 footprint position: (314642500, 60180000)
+[board_modifier.py:98]: Getting MX32 footprint position: (333375000, 57150000)
+[board_modifier.py:85]: Setting D32 footprint position: (338455000, 60180000)
+[board_modifier.py:98]: Getting MX33 footprint position: (38100000, 76200000)
+[board_modifier.py:85]: Setting D33 footprint position: (43180000, 79230000)
+[board_modifier.py:98]: Getting MX34 footprint position: (57150000, 76200000)
+[board_modifier.py:85]: Setting D34 footprint position: (62230000, 79230000)
+[board_modifier.py:98]: Getting MX35 footprint position: (76200000, 76200000)
+[board_modifier.py:85]: Setting D35 footprint position: (81280000, 79230000)
+[board_modifier.py:98]: Getting MX36 footprint position: (100012500, 76200000)
+[board_modifier.py:85]: Setting D36 footprint position: (105092500, 79230000)
+[board_modifier.py:98]: Getting MX37 footprint position: (119062500, 76200000)
+[board_modifier.py:85]: Setting D37 footprint position: (124142500, 79230000)
+[board_modifier.py:98]: Getting MX38 footprint position: (138112500, 76200000)
+[board_modifier.py:85]: Setting D38 footprint position: (143192500, 79230000)
+[board_modifier.py:98]: Getting MX39 footprint position: (157162500, 76200000)
+[board_modifier.py:85]: Setting D39 footprint position: (162242500, 79230000)
+[board_modifier.py:98]: Getting MX40 footprint position: (176212500, 76200000)
+[board_modifier.py:85]: Setting D40 footprint position: (181292500, 79230000)
+[board_modifier.py:98]: Getting MX41 footprint position: (195262500, 76200000)
+[board_modifier.py:85]: Setting D41 footprint position: (200342500, 79230000)
+[board_modifier.py:98]: Getting MX42 footprint position: (214312500, 76200000)
+[board_modifier.py:85]: Setting D42 footprint position: (219392500, 79230000)
+[board_modifier.py:98]: Getting MX43 footprint position: (233362500, 76200000)
+[board_modifier.py:85]: Setting D43 footprint position: (238442500, 79230000)
+[board_modifier.py:98]: Getting MX44 footprint position: (252412500, 76200000)
+[board_modifier.py:85]: Setting D44 footprint position: (257492500, 79230000)
+[board_modifier.py:98]: Getting MX45 footprint position: (271462500, 76200000)
+[board_modifier.py:85]: Setting D45 footprint position: (276542500, 79230000)
+[board_modifier.py:98]: Getting MX46 footprint position: (290512500, 76200000)
+[board_modifier.py:85]: Setting D46 footprint position: (295592500, 79230000)
+[board_modifier.py:98]: Getting MX47 footprint position: (309562500, 76200000)
+[board_modifier.py:85]: Setting D47 footprint position: (314642500, 79230000)
+[board_modifier.py:98]: Getting MX48 footprint position: (333375000, 76200000)
+[board_modifier.py:85]: Setting D48 footprint position: (338455000, 79230000)
+[board_modifier.py:98]: Getting MX49 footprint position: (104775000, 95250000)
+[board_modifier.py:98]: Getting MX50 footprint position: (128587500, 95250000)
+[board_modifier.py:98]: Getting MX51 footprint position: (147637500, 95250000)
+[board_modifier.py:98]: Getting MX52 footprint position: (166687500, 95250000)
+[board_modifier.py:98]: Getting MX53 footprint position: (185737500, 95250000)
+[board_modifier.py:98]: Getting MX54 footprint position: (204787500, 95250000)
+[board_modifier.py:98]: Getting MX55 footprint position: (223837500, 95250000)
+[board_modifier.py:98]: Getting MX56 footprint position: (242887500, 95250000)
+[board_modifier.py:98]: Getting MX57 footprint position: (261937500, 95250000)
+[board_modifier.py:98]: Getting MX58 footprint position: (280987500, 95250000)
+[board_modifier.py:98]: Getting MX59 footprint position: (304800000, 95250000)
+[board_modifier.py:98]: Getting MX60 footprint position: (38100000, 114300000)
+[board_modifier.py:85]: Setting D60 footprint position: (43180000, 117330000)
+[board_modifier.py:98]: Getting MX61 footprint position: (66675000, 114300000)
+[board_modifier.py:85]: Setting D61 footprint position: (71755000, 117330000)
+[board_modifier.py:98]: Getting MX62 footprint position: (135731250, 119062500)
+[board_modifier.py:85]: Setting D62 footprint position: (140811250, 122092500)
+[board_modifier.py:98]: Getting MX63 footprint position: (161925000, 119062500)
+[board_modifier.py:85]: Setting D63 footprint position: (167005000, 122092500)
+[board_modifier.py:98]: Getting MX64 footprint position: (188118750, 119062500)
+[board_modifier.py:85]: Setting D64 footprint position: (193198750, 122092500)
+[board_modifier.py:98]: Getting MX65 footprint position: (221456250, 119062500)
+[board_modifier.py:85]: Setting D65 footprint position: (226536250, 122092500)
+[board_modifier.py:98]: Getting MX66 footprint position: (247650000, 119062500)
+[board_modifier.py:85]: Setting D66 footprint position: (252730000, 122092500)
+[board_modifier.py:98]: Getting MX67 footprint position: (273843750, 119062500)
+[board_modifier.py:85]: Setting D67 footprint position: (278923750, 122092500)
+[board_modifier.py:98]: Getting MX68 footprint position: (133350000, 138112500)
+[board_modifier.py:98]: Getting MX69 footprint position: (159543750, 138112500)
+[board_modifier.py:98]: Getting MX70 footprint position: (188118750, 138112500)
+[board_modifier.py:98]: Getting MX71 footprint position: (221456250, 138112500)
+[board_modifier.py:98]: Getting MX72 footprint position: (250031250, 138112500)
+[board_modifier.py:98]: Getting MX73 footprint position: (276225000, 138112500)
+[board_modifier.py:98]: Getting MX74 footprint position: (130968750, 157162500)
+[board_modifier.py:98]: Getting MX75 footprint position: (157162500, 157162500)
+[board_modifier.py:98]: Getting MX76 footprint position: (188118750, 157162500)
+[board_modifier.py:98]: Getting MX77 footprint position: (221456250, 157162500)
+[board_modifier.py:98]: Getting MX78 footprint position: (252412500, 157162500)
+[board_modifier.py:98]: Getting MX79 footprint position: (278606250, 157162500)
+[board_modifier.py:98]: Getting MX80 footprint position: (128587500, 176212500)
+[board_modifier.py:98]: Getting MX81 footprint position: (147637500, 176212500)
+[board_modifier.py:98]: Getting MX82 footprint position: (261937500, 176212500)
+[board_modifier.py:98]: Getting MX83 footprint position: (280987500, 176212500)
+[key_placer.py:746]: Optimizing orientation of MX1 diodes
+[board_modifier.py:98]: Getting D1 footprint position: (43180000, 41130000)
+[key_placer.py:746]: Optimizing orientation of MX2 diodes
+[board_modifier.py:98]: Getting D2 footprint position: (62230000, 41130000)
+[key_placer.py:746]: Optimizing orientation of MX3 diodes
+[board_modifier.py:98]: Getting D3 footprint position: (81280000, 41130000)
+[key_placer.py:746]: Optimizing orientation of MX4 diodes
+[board_modifier.py:98]: Getting D4 footprint position: (105092500, 41130000)
+[key_placer.py:746]: Optimizing orientation of MX5 diodes
+[board_modifier.py:98]: Getting D5 footprint position: (124142500, 41130000)
+[key_placer.py:746]: Optimizing orientation of MX6 diodes
+[board_modifier.py:98]: Getting D6 footprint position: (143192500, 41130000)
+[key_placer.py:746]: Optimizing orientation of MX7 diodes
+[board_modifier.py:98]: Getting D7 footprint position: (162242500, 41130000)
+[key_placer.py:746]: Optimizing orientation of MX8 diodes
+[board_modifier.py:98]: Getting D8 footprint position: (181292500, 41130000)
+[key_placer.py:746]: Optimizing orientation of MX9 diodes
+[board_modifier.py:98]: Getting D9 footprint position: (200342500, 41130000)
+[key_placer.py:746]: Optimizing orientation of MX10 diodes
+[board_modifier.py:98]: Getting D10 footprint position: (219392500, 41130000)
+[key_placer.py:746]: Optimizing orientation of MX11 diodes
+[board_modifier.py:98]: Getting D11 footprint position: (238442500, 41130000)
+[key_placer.py:746]: Optimizing orientation of MX12 diodes
+[board_modifier.py:98]: Getting D12 footprint position: (257492500, 41130000)
+[key_placer.py:746]: Optimizing orientation of MX13 diodes
+[board_modifier.py:98]: Getting D13 footprint position: (276542500, 41130000)
+[key_placer.py:746]: Optimizing orientation of MX14 diodes
+[board_modifier.py:98]: Getting D14 footprint position: (295592500, 41130000)
+[key_placer.py:746]: Optimizing orientation of MX15 diodes
+[board_modifier.py:98]: Getting D15 footprint position: (314642500, 41130000)
+[key_placer.py:746]: Optimizing orientation of MX16 diodes
+[board_modifier.py:98]: Getting D16 footprint position: (338455000, 41130000)
+[key_placer.py:746]: Optimizing orientation of MX17 diodes
+[board_modifier.py:98]: Getting D17 footprint position: (43180000, 60180000)
+[key_placer.py:746]: Optimizing orientation of MX18 diodes
+[board_modifier.py:98]: Getting D18 footprint position: (62230000, 60180000)
+[key_placer.py:746]: Optimizing orientation of MX19 diodes
+[board_modifier.py:98]: Getting D19 footprint position: (81280000, 60180000)
+[key_placer.py:746]: Optimizing orientation of MX20 diodes
+[board_modifier.py:98]: Getting D20 footprint position: (105092500, 60180000)
+[key_placer.py:746]: Optimizing orientation of MX21 diodes
+[board_modifier.py:98]: Getting D21 footprint position: (124142500, 60180000)
+[key_placer.py:746]: Optimizing orientation of MX22 diodes
+[board_modifier.py:98]: Getting D22 footprint position: (143192500, 60180000)
+[key_placer.py:746]: Optimizing orientation of MX23 diodes
+[board_modifier.py:98]: Getting D23 footprint position: (162242500, 60180000)
+[key_placer.py:746]: Optimizing orientation of MX24 diodes
+[board_modifier.py:98]: Getting D24 footprint position: (181292500, 60180000)
+[key_placer.py:746]: Optimizing orientation of MX25 diodes
+[board_modifier.py:98]: Getting D25 footprint position: (200342500, 60180000)
+[key_placer.py:746]: Optimizing orientation of MX26 diodes
+[board_modifier.py:98]: Getting D26 footprint position: (219392500, 60180000)
+[key_placer.py:746]: Optimizing orientation of MX27 diodes
+[board_modifier.py:98]: Getting D27 footprint position: (238442500, 60180000)
+[key_placer.py:746]: Optimizing orientation of MX28 diodes
+[board_modifier.py:98]: Getting D28 footprint position: (257492500, 60180000)
+[key_placer.py:746]: Optimizing orientation of MX29 diodes
+[board_modifier.py:98]: Getting D29 footprint position: (276542500, 60180000)
+[key_placer.py:746]: Optimizing orientation of MX30 diodes
+[board_modifier.py:98]: Getting D30 footprint position: (295592500, 60180000)
+[key_placer.py:746]: Optimizing orientation of MX31 diodes
+[board_modifier.py:98]: Getting D31 footprint position: (314642500, 60180000)
+[key_placer.py:746]: Optimizing orientation of MX32 diodes
+[board_modifier.py:98]: Getting D32 footprint position: (338455000, 60180000)
+[key_placer.py:746]: Optimizing orientation of MX33 diodes
+[board_modifier.py:98]: Getting D33 footprint position: (43180000, 79230000)
+[key_placer.py:746]: Optimizing orientation of MX34 diodes
+[board_modifier.py:98]: Getting D34 footprint position: (62230000, 79230000)
+[key_placer.py:746]: Optimizing orientation of MX35 diodes
+[board_modifier.py:98]: Getting D35 footprint position: (81280000, 79230000)
+[key_placer.py:746]: Optimizing orientation of MX36 diodes
+[board_modifier.py:98]: Getting D36 footprint position: (105092500, 79230000)
+[key_placer.py:746]: Optimizing orientation of MX37 diodes
+[board_modifier.py:98]: Getting D37 footprint position: (124142500, 79230000)
+[key_placer.py:746]: Optimizing orientation of MX38 diodes
+[board_modifier.py:98]: Getting D38 footprint position: (143192500, 79230000)
+[key_placer.py:746]: Optimizing orientation of MX39 diodes
+[board_modifier.py:98]: Getting D39 footprint position: (162242500, 79230000)
+[key_placer.py:746]: Optimizing orientation of MX40 diodes
+[board_modifier.py:98]: Getting D40 footprint position: (181292500, 79230000)
+[key_placer.py:746]: Optimizing orientation of MX41 diodes
+[board_modifier.py:98]: Getting D41 footprint position: (200342500, 79230000)
+[key_placer.py:746]: Optimizing orientation of MX42 diodes
+[board_modifier.py:98]: Getting D42 footprint position: (219392500, 79230000)
+[key_placer.py:746]: Optimizing orientation of MX43 diodes
+[board_modifier.py:98]: Getting D43 footprint position: (238442500, 79230000)
+[key_placer.py:746]: Optimizing orientation of MX44 diodes
+[board_modifier.py:98]: Getting D44 footprint position: (257492500, 79230000)
+[key_placer.py:746]: Optimizing orientation of MX45 diodes
+[board_modifier.py:98]: Getting D45 footprint position: (276542500, 79230000)
+[key_placer.py:746]: Optimizing orientation of MX46 diodes
+[board_modifier.py:98]: Getting D46 footprint position: (295592500, 79230000)
+[key_placer.py:746]: Optimizing orientation of MX47 diodes
+[board_modifier.py:98]: Getting D47 footprint position: (314642500, 79230000)
+[key_placer.py:746]: Optimizing orientation of MX48 diodes
+[board_modifier.py:98]: Getting D48 footprint position: (338455000, 79230000)
+[key_placer.py:746]: Optimizing orientation of MX49 diodes
+[board_modifier.py:98]: Getting D36 footprint position: (105092500, 79230000)
+[key_placer.py:759]: Rotated D36 to minimize distance
+[key_placer.py:746]: Optimizing orientation of MX50 diodes
+[board_modifier.py:98]: Getting D37 footprint position: (124142500, 79230000)
+[key_placer.py:759]: Rotated D37 to minimize distance
+[key_placer.py:746]: Optimizing orientation of MX51 diodes
+[board_modifier.py:98]: Getting D38 footprint position: (143192500, 79230000)
+[key_placer.py:759]: Rotated D38 to minimize distance
+[key_placer.py:746]: Optimizing orientation of MX52 diodes
+[board_modifier.py:98]: Getting D39 footprint position: (162242500, 79230000)
+[key_placer.py:759]: Rotated D39 to minimize distance
+[key_placer.py:746]: Optimizing orientation of MX53 diodes
+[board_modifier.py:98]: Getting D40 footprint position: (181292500, 79230000)
+[key_placer.py:759]: Rotated D40 to minimize distance
+[key_placer.py:746]: Optimizing orientation of MX54 diodes
+[board_modifier.py:98]: Getting D41 footprint position: (200342500, 79230000)
+[key_placer.py:759]: Rotated D41 to minimize distance
+[key_placer.py:746]: Optimizing orientation of MX55 diodes
+[board_modifier.py:98]: Getting D42 footprint position: (219392500, 79230000)
+[key_placer.py:759]: Rotated D42 to minimize distance
+[key_placer.py:746]: Optimizing orientation of MX56 diodes
+[board_modifier.py:98]: Getting D43 footprint position: (238442500, 79230000)
+[key_placer.py:759]: Rotated D43 to minimize distance
+[key_placer.py:746]: Optimizing orientation of MX57 diodes
+[board_modifier.py:98]: Getting D44 footprint position: (257492500, 79230000)
+[key_placer.py:759]: Rotated D44 to minimize distance
+[key_placer.py:746]: Optimizing orientation of MX58 diodes
+[board_modifier.py:98]: Getting D45 footprint position: (276542500, 79230000)
+[key_placer.py:759]: Rotated D45 to minimize distance
+[key_placer.py:746]: Optimizing orientation of MX59 diodes
+[board_modifier.py:98]: Getting D46 footprint position: (295592500, 79230000)
+[key_placer.py:759]: Rotated D46 to minimize distance
+[key_placer.py:746]: Optimizing orientation of MX60 diodes
+[board_modifier.py:98]: Getting D60 footprint position: (43180000, 117330000)
+[key_placer.py:746]: Optimizing orientation of MX61 diodes
+[board_modifier.py:98]: Getting D61 footprint position: (71755000, 117330000)
+[key_placer.py:746]: Optimizing orientation of MX62 diodes
+[board_modifier.py:98]: Getting D62 footprint position: (140811250, 122092500)
+[key_placer.py:746]: Optimizing orientation of MX63 diodes
+[board_modifier.py:98]: Getting D63 footprint position: (167005000, 122092500)
+[key_placer.py:746]: Optimizing orientation of MX64 diodes
+[board_modifier.py:98]: Getting D64 footprint position: (193198750, 122092500)
+[key_placer.py:746]: Optimizing orientation of MX65 diodes
+[board_modifier.py:98]: Getting D65 footprint position: (226536250, 122092500)
+[key_placer.py:746]: Optimizing orientation of MX66 diodes
+[board_modifier.py:98]: Getting D66 footprint position: (252730000, 122092500)
+[key_placer.py:746]: Optimizing orientation of MX67 diodes
+[board_modifier.py:98]: Getting D67 footprint position: (278923750, 122092500)
+[key_placer.py:746]: Optimizing orientation of MX68 diodes
+[board_modifier.py:98]: Getting D62 footprint position: (140811250, 122092500)
+[key_placer.py:759]: Rotated D62 to minimize distance
+[key_placer.py:746]: Optimizing orientation of MX69 diodes
+[board_modifier.py:98]: Getting D63 footprint position: (167005000, 122092500)
+[key_placer.py:759]: Rotated D63 to minimize distance
+[key_placer.py:746]: Optimizing orientation of MX70 diodes
+[board_modifier.py:98]: Getting D64 footprint position: (193198750, 122092500)
+[key_placer.py:759]: Rotated D64 to minimize distance
+[key_placer.py:746]: Optimizing orientation of MX71 diodes
+[board_modifier.py:98]: Getting D65 footprint position: (226536250, 122092500)
+[key_placer.py:759]: Rotated D65 to minimize distance
+[key_placer.py:746]: Optimizing orientation of MX72 diodes
+[board_modifier.py:98]: Getting D66 footprint position: (252730000, 122092500)
+[key_placer.py:759]: Rotated D66 to minimize distance
+[key_placer.py:746]: Optimizing orientation of MX73 diodes
+[board_modifier.py:98]: Getting D67 footprint position: (278923750, 122092500)
+[key_placer.py:759]: Rotated D67 to minimize distance
+[key_placer.py:746]: Optimizing orientation of MX74 diodes
+[board_modifier.py:98]: Getting D62 footprint position: (140811250, 122092500)
+[key_placer.py:746]: Optimizing orientation of MX75 diodes
+[board_modifier.py:98]: Getting D63 footprint position: (167005000, 122092500)
+[key_placer.py:746]: Optimizing orientation of MX76 diodes
+[board_modifier.py:98]: Getting D64 footprint position: (193198750, 122092500)
+[key_placer.py:746]: Optimizing orientation of MX77 diodes
+[board_modifier.py:98]: Getting D65 footprint position: (226536250, 122092500)
+[key_placer.py:746]: Optimizing orientation of MX78 diodes
+[board_modifier.py:98]: Getting D66 footprint position: (252730000, 122092500)
+[key_placer.py:746]: Optimizing orientation of MX79 diodes
+[board_modifier.py:98]: Getting D67 footprint position: (278923750, 122092500)
+[key_placer.py:746]: Optimizing orientation of MX80 diodes
+[board_modifier.py:98]: Getting D62 footprint position: (140811250, 122092500)
+[key_placer.py:746]: Optimizing orientation of MX81 diodes
+[board_modifier.py:98]: Getting D63 footprint position: (167005000, 122092500)
+[key_placer.py:746]: Optimizing orientation of MX82 diodes
+[board_modifier.py:98]: Getting D66 footprint position: (252730000, 122092500)
+[key_placer.py:746]: Optimizing orientation of MX83 diodes
+[board_modifier.py:98]: Getting D67 footprint position: (278923750, 122092500)
+[key_placer.py:774]: Placing additional elements for MX83
+[board_modifier.py:98]: Getting MX83 footprint position: (280987500, 176212500)
+[board_modifier.py:75]: Searching for optional ST83 footprint in C:/Users/1000e/OneDrive/Documents/Keyboard projects/numkin/numkin-pcb/numkin.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX82
+[board_modifier.py:98]: Getting MX82 footprint position: (261937500, 176212500)
+[board_modifier.py:75]: Searching for optional ST82 footprint in C:/Users/1000e/OneDrive/Documents/Keyboard projects/numkin/numkin-pcb/numkin.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX81
+[board_modifier.py:98]: Getting MX81 footprint position: (147637500, 176212500)
+[board_modifier.py:75]: Searching for optional ST81 footprint in C:/Users/1000e/OneDrive/Documents/Keyboard projects/numkin/numkin-pcb/numkin.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX80
+[board_modifier.py:98]: Getting MX80 footprint position: (128587500, 176212500)
+[board_modifier.py:75]: Searching for optional ST80 footprint in C:/Users/1000e/OneDrive/Documents/Keyboard projects/numkin/numkin-pcb/numkin.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX79
+[board_modifier.py:98]: Getting MX79 footprint position: (278606250, 157162500)
+[board_modifier.py:75]: Searching for optional ST79 footprint in C:/Users/1000e/OneDrive/Documents/Keyboard projects/numkin/numkin-pcb/numkin.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX78
+[board_modifier.py:98]: Getting MX78 footprint position: (252412500, 157162500)
+[board_modifier.py:75]: Searching for optional ST78 footprint in C:/Users/1000e/OneDrive/Documents/Keyboard projects/numkin/numkin-pcb/numkin.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX77
+[board_modifier.py:98]: Getting MX77 footprint position: (221456250, 157162500)
+[board_modifier.py:75]: Searching for optional ST77 footprint in C:/Users/1000e/OneDrive/Documents/Keyboard projects/numkin/numkin-pcb/numkin.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX76
+[board_modifier.py:98]: Getting MX76 footprint position: (188118750, 157162500)
+[board_modifier.py:75]: Searching for optional ST76 footprint in C:/Users/1000e/OneDrive/Documents/Keyboard projects/numkin/numkin-pcb/numkin.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX75
+[board_modifier.py:98]: Getting MX75 footprint position: (157162500, 157162500)
+[board_modifier.py:75]: Searching for optional ST75 footprint in C:/Users/1000e/OneDrive/Documents/Keyboard projects/numkin/numkin-pcb/numkin.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX74
+[board_modifier.py:98]: Getting MX74 footprint position: (130968750, 157162500)
+[board_modifier.py:75]: Searching for optional ST74 footprint in C:/Users/1000e/OneDrive/Documents/Keyboard projects/numkin/numkin-pcb/numkin.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX73
+[board_modifier.py:98]: Getting MX73 footprint position: (276225000, 138112500)
+[board_modifier.py:75]: Searching for optional ST73 footprint in C:/Users/1000e/OneDrive/Documents/Keyboard projects/numkin/numkin-pcb/numkin.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX72
+[board_modifier.py:98]: Getting MX72 footprint position: (250031250, 138112500)
+[board_modifier.py:75]: Searching for optional ST72 footprint in C:/Users/1000e/OneDrive/Documents/Keyboard projects/numkin/numkin-pcb/numkin.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX71
+[board_modifier.py:98]: Getting MX71 footprint position: (221456250, 138112500)
+[board_modifier.py:75]: Searching for optional ST71 footprint in C:/Users/1000e/OneDrive/Documents/Keyboard projects/numkin/numkin-pcb/numkin.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX70
+[board_modifier.py:98]: Getting MX70 footprint position: (188118750, 138112500)
+[board_modifier.py:75]: Searching for optional ST70 footprint in C:/Users/1000e/OneDrive/Documents/Keyboard projects/numkin/numkin-pcb/numkin.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX69
+[board_modifier.py:98]: Getting MX69 footprint position: (159543750, 138112500)
+[board_modifier.py:75]: Searching for optional ST69 footprint in C:/Users/1000e/OneDrive/Documents/Keyboard projects/numkin/numkin-pcb/numkin.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX68
+[board_modifier.py:98]: Getting MX68 footprint position: (133350000, 138112500)
+[board_modifier.py:75]: Searching for optional ST68 footprint in C:/Users/1000e/OneDrive/Documents/Keyboard projects/numkin/numkin-pcb/numkin.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX67
+[board_modifier.py:98]: Getting MX67 footprint position: (273843750, 119062500)
+[board_modifier.py:75]: Searching for optional ST67 footprint in C:/Users/1000e/OneDrive/Documents/Keyboard projects/numkin/numkin-pcb/numkin.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX66
+[board_modifier.py:98]: Getting MX66 footprint position: (247650000, 119062500)
+[board_modifier.py:75]: Searching for optional ST66 footprint in C:/Users/1000e/OneDrive/Documents/Keyboard projects/numkin/numkin-pcb/numkin.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX65
+[board_modifier.py:98]: Getting MX65 footprint position: (221456250, 119062500)
+[board_modifier.py:75]: Searching for optional ST65 footprint in C:/Users/1000e/OneDrive/Documents/Keyboard projects/numkin/numkin-pcb/numkin.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX64
+[board_modifier.py:98]: Getting MX64 footprint position: (188118750, 119062500)
+[board_modifier.py:75]: Searching for optional ST64 footprint in C:/Users/1000e/OneDrive/Documents/Keyboard projects/numkin/numkin-pcb/numkin.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX63
+[board_modifier.py:98]: Getting MX63 footprint position: (161925000, 119062500)
+[board_modifier.py:75]: Searching for optional ST63 footprint in C:/Users/1000e/OneDrive/Documents/Keyboard projects/numkin/numkin-pcb/numkin.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX62
+[board_modifier.py:98]: Getting MX62 footprint position: (135731250, 119062500)
+[board_modifier.py:75]: Searching for optional ST62 footprint in C:/Users/1000e/OneDrive/Documents/Keyboard projects/numkin/numkin-pcb/numkin.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX61
+[board_modifier.py:98]: Getting MX61 footprint position: (66675000, 114300000)
+[board_modifier.py:75]: Searching for optional ST61 footprint in C:/Users/1000e/OneDrive/Documents/Keyboard projects/numkin/numkin-pcb/numkin.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX60
+[board_modifier.py:98]: Getting MX60 footprint position: (38100000, 114300000)
+[board_modifier.py:75]: Searching for optional ST60 footprint in C:/Users/1000e/OneDrive/Documents/Keyboard projects/numkin/numkin-pcb/numkin.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX59
+[board_modifier.py:98]: Getting MX59 footprint position: (304800000, 95250000)
+[board_modifier.py:75]: Searching for optional ST59 footprint in C:/Users/1000e/OneDrive/Documents/Keyboard projects/numkin/numkin-pcb/numkin.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX58
+[board_modifier.py:98]: Getting MX58 footprint position: (280987500, 95250000)
+[board_modifier.py:75]: Searching for optional ST58 footprint in C:/Users/1000e/OneDrive/Documents/Keyboard projects/numkin/numkin-pcb/numkin.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX57
+[board_modifier.py:98]: Getting MX57 footprint position: (261937500, 95250000)
+[board_modifier.py:75]: Searching for optional ST57 footprint in C:/Users/1000e/OneDrive/Documents/Keyboard projects/numkin/numkin-pcb/numkin.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX56
+[board_modifier.py:98]: Getting MX56 footprint position: (242887500, 95250000)
+[board_modifier.py:75]: Searching for optional ST56 footprint in C:/Users/1000e/OneDrive/Documents/Keyboard projects/numkin/numkin-pcb/numkin.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX55
+[board_modifier.py:98]: Getting MX55 footprint position: (223837500, 95250000)
+[board_modifier.py:75]: Searching for optional ST55 footprint in C:/Users/1000e/OneDrive/Documents/Keyboard projects/numkin/numkin-pcb/numkin.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX54
+[board_modifier.py:98]: Getting MX54 footprint position: (204787500, 95250000)
+[board_modifier.py:75]: Searching for optional ST54 footprint in C:/Users/1000e/OneDrive/Documents/Keyboard projects/numkin/numkin-pcb/numkin.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX53
+[board_modifier.py:98]: Getting MX53 footprint position: (185737500, 95250000)
+[board_modifier.py:75]: Searching for optional ST53 footprint in C:/Users/1000e/OneDrive/Documents/Keyboard projects/numkin/numkin-pcb/numkin.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX52
+[board_modifier.py:98]: Getting MX52 footprint position: (166687500, 95250000)
+[board_modifier.py:75]: Searching for optional ST52 footprint in C:/Users/1000e/OneDrive/Documents/Keyboard projects/numkin/numkin-pcb/numkin.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX51
+[board_modifier.py:98]: Getting MX51 footprint position: (147637500, 95250000)
+[board_modifier.py:75]: Searching for optional ST51 footprint in C:/Users/1000e/OneDrive/Documents/Keyboard projects/numkin/numkin-pcb/numkin.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX50
+[board_modifier.py:98]: Getting MX50 footprint position: (128587500, 95250000)
+[board_modifier.py:75]: Searching for optional ST50 footprint in C:/Users/1000e/OneDrive/Documents/Keyboard projects/numkin/numkin-pcb/numkin.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX49
+[board_modifier.py:98]: Getting MX49 footprint position: (104775000, 95250000)
+[board_modifier.py:75]: Searching for optional ST49 footprint in C:/Users/1000e/OneDrive/Documents/Keyboard projects/numkin/numkin-pcb/numkin.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX48
+[board_modifier.py:98]: Getting MX48 footprint position: (333375000, 76200000)
+[board_modifier.py:75]: Searching for optional ST48 footprint in C:/Users/1000e/OneDrive/Documents/Keyboard projects/numkin/numkin-pcb/numkin.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX47
+[board_modifier.py:98]: Getting MX47 footprint position: (309562500, 76200000)
+[board_modifier.py:75]: Searching for optional ST47 footprint in C:/Users/1000e/OneDrive/Documents/Keyboard projects/numkin/numkin-pcb/numkin.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX46
+[board_modifier.py:98]: Getting MX46 footprint position: (290512500, 76200000)
+[board_modifier.py:75]: Searching for optional ST46 footprint in C:/Users/1000e/OneDrive/Documents/Keyboard projects/numkin/numkin-pcb/numkin.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX45
+[board_modifier.py:98]: Getting MX45 footprint position: (271462500, 76200000)
+[board_modifier.py:75]: Searching for optional ST45 footprint in C:/Users/1000e/OneDrive/Documents/Keyboard projects/numkin/numkin-pcb/numkin.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX44
+[board_modifier.py:98]: Getting MX44 footprint position: (252412500, 76200000)
+[board_modifier.py:75]: Searching for optional ST44 footprint in C:/Users/1000e/OneDrive/Documents/Keyboard projects/numkin/numkin-pcb/numkin.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX43
+[board_modifier.py:98]: Getting MX43 footprint position: (233362500, 76200000)
+[board_modifier.py:75]: Searching for optional ST43 footprint in C:/Users/1000e/OneDrive/Documents/Keyboard projects/numkin/numkin-pcb/numkin.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX42
+[board_modifier.py:98]: Getting MX42 footprint position: (214312500, 76200000)
+[board_modifier.py:75]: Searching for optional ST42 footprint in C:/Users/1000e/OneDrive/Documents/Keyboard projects/numkin/numkin-pcb/numkin.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX41
+[board_modifier.py:98]: Getting MX41 footprint position: (195262500, 76200000)
+[board_modifier.py:75]: Searching for optional ST41 footprint in C:/Users/1000e/OneDrive/Documents/Keyboard projects/numkin/numkin-pcb/numkin.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX40
+[board_modifier.py:98]: Getting MX40 footprint position: (176212500, 76200000)
+[board_modifier.py:75]: Searching for optional ST40 footprint in C:/Users/1000e/OneDrive/Documents/Keyboard projects/numkin/numkin-pcb/numkin.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX39
+[board_modifier.py:98]: Getting MX39 footprint position: (157162500, 76200000)
+[board_modifier.py:75]: Searching for optional ST39 footprint in C:/Users/1000e/OneDrive/Documents/Keyboard projects/numkin/numkin-pcb/numkin.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX38
+[board_modifier.py:98]: Getting MX38 footprint position: (138112500, 76200000)
+[board_modifier.py:75]: Searching for optional ST38 footprint in C:/Users/1000e/OneDrive/Documents/Keyboard projects/numkin/numkin-pcb/numkin.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX37
+[board_modifier.py:98]: Getting MX37 footprint position: (119062500, 76200000)
+[board_modifier.py:75]: Searching for optional ST37 footprint in C:/Users/1000e/OneDrive/Documents/Keyboard projects/numkin/numkin-pcb/numkin.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX36
+[board_modifier.py:98]: Getting MX36 footprint position: (100012500, 76200000)
+[board_modifier.py:75]: Searching for optional ST36 footprint in C:/Users/1000e/OneDrive/Documents/Keyboard projects/numkin/numkin-pcb/numkin.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX35
+[board_modifier.py:98]: Getting MX35 footprint position: (76200000, 76200000)
+[board_modifier.py:75]: Searching for optional ST35 footprint in C:/Users/1000e/OneDrive/Documents/Keyboard projects/numkin/numkin-pcb/numkin.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX34
+[board_modifier.py:98]: Getting MX34 footprint position: (57150000, 76200000)
+[board_modifier.py:75]: Searching for optional ST34 footprint in C:/Users/1000e/OneDrive/Documents/Keyboard projects/numkin/numkin-pcb/numkin.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX33
+[board_modifier.py:98]: Getting MX33 footprint position: (38100000, 76200000)
+[board_modifier.py:75]: Searching for optional ST33 footprint in C:/Users/1000e/OneDrive/Documents/Keyboard projects/numkin/numkin-pcb/numkin.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX32
+[board_modifier.py:98]: Getting MX32 footprint position: (333375000, 57150000)
+[board_modifier.py:75]: Searching for optional ST32 footprint in C:/Users/1000e/OneDrive/Documents/Keyboard projects/numkin/numkin-pcb/numkin.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX31
+[board_modifier.py:98]: Getting MX31 footprint position: (309562500, 57150000)
+[board_modifier.py:75]: Searching for optional ST31 footprint in C:/Users/1000e/OneDrive/Documents/Keyboard projects/numkin/numkin-pcb/numkin.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX30
+[board_modifier.py:98]: Getting MX30 footprint position: (290512500, 57150000)
+[board_modifier.py:75]: Searching for optional ST30 footprint in C:/Users/1000e/OneDrive/Documents/Keyboard projects/numkin/numkin-pcb/numkin.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX29
+[board_modifier.py:98]: Getting MX29 footprint position: (271462500, 57150000)
+[board_modifier.py:75]: Searching for optional ST29 footprint in C:/Users/1000e/OneDrive/Documents/Keyboard projects/numkin/numkin-pcb/numkin.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX28
+[board_modifier.py:98]: Getting MX28 footprint position: (252412500, 57150000)
+[board_modifier.py:75]: Searching for optional ST28 footprint in C:/Users/1000e/OneDrive/Documents/Keyboard projects/numkin/numkin-pcb/numkin.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX27
+[board_modifier.py:98]: Getting MX27 footprint position: (233362500, 57150000)
+[board_modifier.py:75]: Searching for optional ST27 footprint in C:/Users/1000e/OneDrive/Documents/Keyboard projects/numkin/numkin-pcb/numkin.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX26
+[board_modifier.py:98]: Getting MX26 footprint position: (214312500, 57150000)
+[board_modifier.py:75]: Searching for optional ST26 footprint in C:/Users/1000e/OneDrive/Documents/Keyboard projects/numkin/numkin-pcb/numkin.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX25
+[board_modifier.py:98]: Getting MX25 footprint position: (195262500, 57150000)
+[board_modifier.py:75]: Searching for optional ST25 footprint in C:/Users/1000e/OneDrive/Documents/Keyboard projects/numkin/numkin-pcb/numkin.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX24
+[board_modifier.py:98]: Getting MX24 footprint position: (176212500, 57150000)
+[board_modifier.py:75]: Searching for optional ST24 footprint in C:/Users/1000e/OneDrive/Documents/Keyboard projects/numkin/numkin-pcb/numkin.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX23
+[board_modifier.py:98]: Getting MX23 footprint position: (157162500, 57150000)
+[board_modifier.py:75]: Searching for optional ST23 footprint in C:/Users/1000e/OneDrive/Documents/Keyboard projects/numkin/numkin-pcb/numkin.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX22
+[board_modifier.py:98]: Getting MX22 footprint position: (138112500, 57150000)
+[board_modifier.py:75]: Searching for optional ST22 footprint in C:/Users/1000e/OneDrive/Documents/Keyboard projects/numkin/numkin-pcb/numkin.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX21
+[board_modifier.py:98]: Getting MX21 footprint position: (119062500, 57150000)
+[board_modifier.py:75]: Searching for optional ST21 footprint in C:/Users/1000e/OneDrive/Documents/Keyboard projects/numkin/numkin-pcb/numkin.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX20
+[board_modifier.py:98]: Getting MX20 footprint position: (100012500, 57150000)
+[board_modifier.py:75]: Searching for optional ST20 footprint in C:/Users/1000e/OneDrive/Documents/Keyboard projects/numkin/numkin-pcb/numkin.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX19
+[board_modifier.py:98]: Getting MX19 footprint position: (76200000, 57150000)
+[board_modifier.py:75]: Searching for optional ST19 footprint in C:/Users/1000e/OneDrive/Documents/Keyboard projects/numkin/numkin-pcb/numkin.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX18
+[board_modifier.py:98]: Getting MX18 footprint position: (57150000, 57150000)
+[board_modifier.py:75]: Searching for optional ST18 footprint in C:/Users/1000e/OneDrive/Documents/Keyboard projects/numkin/numkin-pcb/numkin.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX17
+[board_modifier.py:98]: Getting MX17 footprint position: (38100000, 57150000)
+[board_modifier.py:75]: Searching for optional ST17 footprint in C:/Users/1000e/OneDrive/Documents/Keyboard projects/numkin/numkin-pcb/numkin.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX16
+[board_modifier.py:98]: Getting MX16 footprint position: (333375000, 38100000)
+[board_modifier.py:75]: Searching for optional ST16 footprint in C:/Users/1000e/OneDrive/Documents/Keyboard projects/numkin/numkin-pcb/numkin.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX15
+[board_modifier.py:98]: Getting MX15 footprint position: (309562500, 38100000)
+[board_modifier.py:75]: Searching for optional ST15 footprint in C:/Users/1000e/OneDrive/Documents/Keyboard projects/numkin/numkin-pcb/numkin.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX14
+[board_modifier.py:98]: Getting MX14 footprint position: (290512500, 38100000)
+[board_modifier.py:75]: Searching for optional ST14 footprint in C:/Users/1000e/OneDrive/Documents/Keyboard projects/numkin/numkin-pcb/numkin.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX13
+[board_modifier.py:98]: Getting MX13 footprint position: (271462500, 38100000)
+[board_modifier.py:75]: Searching for optional ST13 footprint in C:/Users/1000e/OneDrive/Documents/Keyboard projects/numkin/numkin-pcb/numkin.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX12
+[board_modifier.py:98]: Getting MX12 footprint position: (252412500, 38100000)
+[board_modifier.py:75]: Searching for optional ST12 footprint in C:/Users/1000e/OneDrive/Documents/Keyboard projects/numkin/numkin-pcb/numkin.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX11
+[board_modifier.py:98]: Getting MX11 footprint position: (233362500, 38100000)
+[board_modifier.py:75]: Searching for optional ST11 footprint in C:/Users/1000e/OneDrive/Documents/Keyboard projects/numkin/numkin-pcb/numkin.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX10
+[board_modifier.py:98]: Getting MX10 footprint position: (214312500, 38100000)
+[board_modifier.py:75]: Searching for optional ST10 footprint in C:/Users/1000e/OneDrive/Documents/Keyboard projects/numkin/numkin-pcb/numkin.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX9
+[board_modifier.py:98]: Getting MX9 footprint position: (195262500, 38100000)
+[board_modifier.py:75]: Searching for optional ST9 footprint in C:/Users/1000e/OneDrive/Documents/Keyboard projects/numkin/numkin-pcb/numkin.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX8
+[board_modifier.py:98]: Getting MX8 footprint position: (176212500, 38100000)
+[board_modifier.py:75]: Searching for optional ST8 footprint in C:/Users/1000e/OneDrive/Documents/Keyboard projects/numkin/numkin-pcb/numkin.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX7
+[board_modifier.py:98]: Getting MX7 footprint position: (157162500, 38100000)
+[board_modifier.py:75]: Searching for optional ST7 footprint in C:/Users/1000e/OneDrive/Documents/Keyboard projects/numkin/numkin-pcb/numkin.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX6
+[board_modifier.py:98]: Getting MX6 footprint position: (138112500, 38100000)
+[board_modifier.py:75]: Searching for optional ST6 footprint in C:/Users/1000e/OneDrive/Documents/Keyboard projects/numkin/numkin-pcb/numkin.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX5
+[board_modifier.py:98]: Getting MX5 footprint position: (119062500, 38100000)
+[board_modifier.py:75]: Searching for optional ST5 footprint in C:/Users/1000e/OneDrive/Documents/Keyboard projects/numkin/numkin-pcb/numkin.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX4
+[board_modifier.py:98]: Getting MX4 footprint position: (100012500, 38100000)
+[board_modifier.py:75]: Searching for optional ST4 footprint in C:/Users/1000e/OneDrive/Documents/Keyboard projects/numkin/numkin-pcb/numkin.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX3
+[board_modifier.py:98]: Getting MX3 footprint position: (76200000, 38100000)
+[board_modifier.py:75]: Searching for optional ST3 footprint in C:/Users/1000e/OneDrive/Documents/Keyboard projects/numkin/numkin-pcb/numkin.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX2
+[board_modifier.py:98]: Getting MX2 footprint position: (57150000, 38100000)
+[board_modifier.py:75]: Searching for optional ST2 footprint in C:/Users/1000e/OneDrive/Documents/Keyboard projects/numkin/numkin-pcb/numkin.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:774]: Placing additional elements for MX1
+[board_modifier.py:98]: Getting MX1 footprint position: (38100000, 38100000)
+[board_modifier.py:75]: Searching for optional ST1 footprint in C:/Users/1000e/OneDrive/Documents/Keyboard projects/numkin/numkin-pcb/numkin.kicad_pcb
+[board_modifier.py:80]: Footprint not found
