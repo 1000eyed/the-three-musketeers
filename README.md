@@ -12,6 +12,9 @@ The three musketeers is a mechanical keyboard powered by RP2040 Zero development
 - Designed to support either KS-33B or Gateron low profile V3 switches. The PCB will accept the MX style switches too, but there is no case for these so far.
 - I designed a couple of cases for this PCB, see below. All of them are low profile aimed on Gateron switches exclusively.
 - Features KLJ-1102 speaker. I use it for announcing mod activation on keyboards with home row modifiers. You may use it for anything else per your liking, or not use it at all.
+- Main cluster supports either ortho or alpha stagger layouts.
+- There are multiple space row options, including 7U bar seesaw mount.
+- No stabilizers!
 
 ## How to build one
 
